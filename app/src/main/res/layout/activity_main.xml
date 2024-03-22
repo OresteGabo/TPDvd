@@ -1,0 +1,85 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titre du DVD"
+        android:layout_x="38dp"
+        android:layout_y="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#titre#"
+        android:id="@+id/a1_titre"
+        android:layout_x="178dp"
+        android:layout_y="49dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personne "
+        android:layout_x="51dp"
+        android:layout_y="111dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#oreste#"
+        android:id="@+id/a1_personne"
+        android:layout_x="195dp"
+        android:layout_y="110dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duree en jours"
+        android:layout_x="53dp"
+        android:layout_y="185dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#5#"
+        android:id="@+id/a1_duree"
+        android:layout_x="215dp"
+        android:layout_y="175dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modifier"
+        android:id="@+id/a1_modifier"
+        android:layout_x="38dp"
+        android:layout_y="245dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supprimer"
+        android:id="@+id/a1_supprimer"
+        android:layout_x="198dp"
+        android:layout_y="245dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precedent"
+        android:id="@+id/a1_prec"
+        android:layout_x="38dp"
+        android:layout_y="285dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/a1_next"
+        android:layout_x="198dp"
+        android:layout_y="285dp" />
+</AbsoluteLayout>
